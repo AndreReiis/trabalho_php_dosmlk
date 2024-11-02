@@ -7,6 +7,7 @@ session_start();
     <meta charset="UTF-8">
     <link rel="stylesheet" href="estil.css">
     <title>Suporte</title>
+    <link rel="stylesheet" href="suporte.css">
 </head>
 <body>
 <!-- fazer formulario para suporte email nome(usuario) telefone --> 

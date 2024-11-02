@@ -7,6 +7,7 @@ session_start();
     <meta charset="UTF-8">
     <link rel="stylesheet" href="estil.css">
     <title>Sobre Nós</title>
+    <link rel="stylesheet" href="sobre.css">
 </head>
 <body>
 <header>
@@ -19,11 +20,13 @@ session_start();
 </nav>
 <main>
     <h2>Equipe de Desenvolvimento</h2>
-    <p>Aqui estão os detalhes dos membros e uso de sessões no site.</p><br>
+    <p>Aqui estão os detalhes dos membros</p><br>
     <p>Andre Reis Melo</p> <br>
+    <p>Caio brittes</p> <br>
     <p>Eduardo de Souza</p> <br>
     <p>Lucas Andrade</p> <br>
     <p>Pablo hibrain</p>
+    
 </main>
 <footer>
     <p>&copy; 2024 Loucos por Futebol</p>

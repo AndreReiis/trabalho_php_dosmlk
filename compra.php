@@ -51,6 +51,10 @@
 </head>
 <body>
 <form action="processa_formulario.php" method="post">
+    
+    <label for="nome">total de ingressos:</label>
+    <input type="number" id="ingressos" name="ingressos" required maxlength="2" required> 
+    
     <label for="nome">Nome:</label>
     <input type="text" id="nome" name="nome" required>
 

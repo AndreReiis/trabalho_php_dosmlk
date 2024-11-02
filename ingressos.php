@@ -25,6 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta charset="UTF-8">
     <link rel="stylesheet" href="estil.css">
     <title>Comprar Ingresso - <?= htmlspecialchars($jogo) ?></title>
+    <link rel="stylesheet" href="ingresso.css">
 </head>
 <body>
 <header>
@@ -46,11 +47,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <p style="color: green;"><?= $mensagem ?></p>
     <?php endif; ?>
 
-    <form action="ingressos.php" method="post">
-        <button type="submit">Comprar Ingresso para <?= htmlspecialchars($setor) ?></button>
-    </form>
+<form action="compra.php" method="post">
+    <button type="submit">Comprar</button>
+</form>
+    
 
-    <p>Total de ingressos adquiridos: <?= $_SESSION['ingressos'] ?></p>
 </main>
 <footer>
     <p>&copy; 2024 Loucos por Futebol</p>

@@ -10,6 +10,7 @@ $jogos = [
     <meta charset="UTF-8">
     <link rel="stylesheet" href="estil.css">
     <title>Jogos</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
 <header>

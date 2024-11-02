@@ -7,6 +7,7 @@ session_start();
     <meta charset="UTF-8">
     <link rel="stylesheet" href="estil.css">
     <title>Loucos por Futebol!</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
 <header>
