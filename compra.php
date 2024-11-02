@@ -50,22 +50,22 @@
     </style>
 </head>
 <body>
+<form action="processa_formulario.php" method="post">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
 
-    <form action="processa_formulario.php" method="post">
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" required>
+    <label for="numero_cartao">Número do Cartão:</label>
+    <input type="number" id="numero_cartao" name="numero_cartao" required>
 
-        <label for="numero_cartao">Número do Cartão:</label>
-        <input type="number" id="numero_cartao" name="numero_cartao" required>
+    <label for="validade_cartao">Validade do Cartão (MM/AA):</label>
+    <input type="text" id="validade_cartao" name="validade_cartao" placeholder="MM/AA" maxlength="4" required> <!-- Limite de 5  -->
 
-        <label for="validade_cartao">Validade do Cartão (MM/AA):</label>
-        <input type="text" id="validade_cartao" name="validade_cartao" placeholder="MM/AA" required>
+    <label for="cvv">CVV:</label>
+    <input type="number" id="cvv" name="cvv" maxlength="3" required> <!-- limite 3 caracteres -->
 
-        <label for="cvv">CVV:</label>
-        <input type="number" id="cvv" name="cvv" required>
+    <input type="submit" value="Enviar">
+</form>
 
-        <input type="submit" value="Enviar">
-    </form>
 
 </body>
 </html>
