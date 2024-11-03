@@ -23,7 +23,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="estil.css">
     <title>Comprar Ingresso - <?= htmlspecialchars($jogo) ?></title>
     <link rel="stylesheet" href="ingresso.css">
 </head>

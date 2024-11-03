@@ -8,9 +8,8 @@ $jogos = [
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="estil.css">
     <title>Jogos</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="jogo.css">
 </head>
 <body>
 <header>
@@ -23,10 +22,11 @@ $jogos = [
 </nav>
 <main>
     <h2>Próximos Jogos</h2>
+    <img src="img/img.png" alt="">
     <ul>
         <?php foreach ($jogos as $jogo) : ?>
             <li><?= $jogo["nome"] ?> - <?= $jogo["data"] ?> -  <?= $jogo["horario"] ?>
-            <a href="ingressos.php?jogo=<?= urlencode($jogo["nome"]) ?>">Comprar Ingresso</a>
+            <a href="login.php?jogo=<?= urlencode($jogo["nome"]) ?>">Comprar Ingresso</a>
             </li>
         <?php endforeach; ?>
     </ul>

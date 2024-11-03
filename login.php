@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="login.css">
     <title>Login</title>
 </head>
 <body>
@@ -38,7 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <label for="password">Senha:</label>
         <input type="password" name="password" id="password" required>
         <br>
-        <button type="submit">Entrar</button>
+        <button type="submit"> <a href="ingressos.php"> Entrar </a>  </button>  
     </form>
     <p>Não tem uma conta? <a href="registro.php">Registre-se</a></p>
 </main>

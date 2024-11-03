@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="estil.css">
+    <link rel="stylesheet" href="registro.css">
     <title>Registro</title>
 </head>
 <body>

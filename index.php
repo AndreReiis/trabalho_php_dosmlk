@@ -5,7 +5,6 @@ session_start();
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="estil.css">
     <title>Loucos por Futebol!</title>
     <link rel="stylesheet" href="index.css">
 </head>
@@ -21,6 +20,7 @@ session_start();
 <main>
     <h2>Jogo em Destaque</h2>
     <p>Aqui você encontra ingressos para os melhores jogos!</p>
+    <img src="img/img2.png" alt="">
 </main>
 <footer>
     <p>&copy; 2024 Loucos por Futebol</p>

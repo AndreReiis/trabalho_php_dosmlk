@@ -5,7 +5,6 @@ session_start();
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="estil.css">
     <title>Sobre Nós</title>
     <link rel="stylesheet" href="sobre.css">
 </head>
